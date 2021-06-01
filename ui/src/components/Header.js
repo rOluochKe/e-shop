@@ -4,7 +4,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 const Header = () => {
   return (
-    <Header>
+    <header>
       <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
@@ -27,7 +27,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Header>
+    </header>
   )
 }
 
