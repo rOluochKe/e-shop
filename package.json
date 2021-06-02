@@ -8,14 +8,20 @@
     "start": "node api/server",
     "server": "nodemon api/server",
     "client": "npm start --prefix ui",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node api/seeder",
+    "data:destroy": "node api/seeder -d"
   },
   "keywords": [],
   "author": "Raymond Oluoch",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.12.12"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
