@@ -1,4 +1,4 @@
-# E-Shop UI
+# E-Shop App
 
 - React
 - api
@@ -7,6 +7,9 @@
 - Bootstrap
 - MongoDB
 - Payment - PayPal
+- Node
+- Express
+- ES6
 
 ## Usage
 
@@ -19,19 +22,19 @@ $ git clone git@github.com:rOluochKe/e-shop.git
 > cd into the directory
 
 ```
-$ cd e-shop/ui
+$ cd e-shop
 ```
 
-> Then install the needed dependencies:
+> Then install the needed dependencies for both backend and frontend
 
 ```
-$ npm install
+$ cd e-shop/ui && e-shop/api: npm install
 ```
 
 > Finally, you'll be ready to view the app in the browser:
 
 ```
-$ run: npm start
+$ run: npm run dev
 ```
 
 ## Designed and developed by
